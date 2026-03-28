@@ -1,5 +1,3 @@
-//> using dep org.scalameta::munit::1.2.4
-
 class MorseEncoderTest extends munit.FunSuite:
 
   // ── Empty input ──────────────────────────────────────────────────────────

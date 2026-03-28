@@ -41,7 +41,7 @@ scala-cli run MorseEncoderAndDecoder.scala
 ### Run the Tests
 
 ```sh
-scala-cli test MorseTest.scala MorseEncoderAndDecoder.scala
+scala-cli test .
 ```
 
 ## Usage
@@ -49,9 +49,9 @@ scala-cli test MorseTest.scala MorseEncoderAndDecoder.scala
 When you start the application, you will see the following menu:
 
 ```
-========================================
-   MORSE CODE TRANSLATOR PRO v2.0
-========================================
+===================================
+   MORSE CODE TRANSLATOR PRO
+===================================
 1. Encode (Text → Morse)
 2. Decode (Morse → Text)
 3. Interactive Mode
@@ -217,7 +217,7 @@ Tests are written with [MUnit](https://scalameta.org/munit/) and cover three tes
 Run all tests with:
 
 ```sh
-scala-cli test MorseTest.scala MorseEncoderAndDecoder.scala
+scala-cli test .
 ```
 
 ---
