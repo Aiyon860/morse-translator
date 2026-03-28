@@ -1,0 +1,35 @@
+# Scala CLI build artifacts
+.scala-build/
+
+# Metals (Scala LSP) IDE files
+.metals/
+.bloop/
+
+# BSP (Build Server Protocol) - optional, can be committed
+.bsp/
+
+# Compiled class files
+*.class
+*.tasty
+*.jar
+
+# Scala worksheet outputs
+*.sc.tmp
+
+# sbt (if ever migrated)
+target/
+project/target/
+project/project/
+
+# Sample output files (generated at runtime)
+samples/output/*.txt
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Editor / IDE
+.vscode/
+.idea/
+*.iml
